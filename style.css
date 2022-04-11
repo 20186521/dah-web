@@ -1,0 +1,28 @@
+body {background-color: rgb(244,242,255); text-align: center;margin: 0px;
+      font-family : "나눔바른펜"; }
+
+.banner {background-image : url("banner.jpg"); background-size: cover;
+         height: 180px; margin: 0px;
+         }
+.banner h1 {margin: 0px; padding-top: 120px;}
+
+#grid {display: grid;
+        grid-template-columns: 1.5fr 3fr;}
+
+.fir { background-color: rgb(249,250,254);
+        padding-left: 20px; padding-right: 20px }
+.fir h1 {padding-top: 20%; font-size: 2em;}
+.fir h3 {font-size: 4em;margin-top: 0px}
+.fir ul {text-align: left;}
+.fir hr {background: #FFFFFF; border: 1px; height: 1px;}
+
+      a {text-decoration: none; color: rgb(235,84,110);}
+      a:hover { color : #b266ff; }
+#list { padding-left: 15px;}
+
+.sec {font-family : "나눔손글씨 펜 OTF"; font-size: 1.5em; color: rgb(235,84,110);
+            background-color: rgb(224,223,229); }
+.sec h1 {padding-top: 25%; margin: 0px;}
+
+.p2 { text-align : right; margin: 0px;
+      padding-right:0px;}
