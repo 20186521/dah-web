@@ -3,69 +3,88 @@
   <head>
     <meta charset="utf-8">
     <title>HOME ㅣ 20186521임재현</title>
-    <link rel="shortcut icon" href="web/favicon.ico" type="image/x-icon">
     <style>
-      body {background-color: #FFFFCC;}
-      .main {margin-left: 25%; margin-right: 25%; text-align: center;}
+      body {background-color: rgb(244,242,255); text-align: center;margin: 0px;
+            font-family : "나눔바른펜"; font-size: ;}
+      .banner {background-image : url("banner.jpg"); background-size: cover;
+               padding-bottom: 180px; margin: 0px;
+               }
+      h1 {padding-top: 25%; margin: 0px;}
+      #grid {display: grid;
+              grid-template-columns: 1.5fr 3fr;}
+
+      .main { background-color: rgb(249,250,254);
+
+              padding-left: 20px; padding-right: 20px
+           }
+      #list { padding-left: 15px;}
       ul {text-align: left;}
-      hr {background: green; border: 3px; height: 3px}
-      .p2 { text-align : right; }
+      a {text-decoration: none;}
+      .greetings {font-family : "나눔손글씨 펜 OTF"; font-size: 1.5em; color: rgb(235,84,110);
+                  background-color: rgb(224,223,229); }
+      hr {background: #FFFFFF; border: 1px; height: 1px;}
+      .p2 { text-align : right; margin: 0px;
+            padding-right:0px;}
     </style>
   </head>
   <body>
-  <div class="main">
-    <p>
-      <h1>안녕하세요, 저희 페이지에 오신 것을 환영합니다😊</h1>
-    </p>
-    <p>이 페이지는 제 전공 선택 과정을 기록한 곳입니다.</p>
-    </style>
-    <ul>
-        <li>2018년 2월: 융합인재학부 1학년 입학</li>
-      <hr>
-        <li>2018년 5월: 복수전공 '헬스케어진단전공'선택</li>
-      <hr>
-        <li>2019년 1월: 학부 내 전공 '<a href="주전공.html">의과학융합전공</a>'선택</li>
-      <hr>
-        <li>2020년 2월: 휴학</li>
-      <hr>
-        <li>2022년 2월: 복학</li>
-      <hr>
-        <li>2022년 5월: 복수전공 '<a href="복수전공.html">디지털인문예술전공</a>'으로 변경 예정</li>
-      <hr>
-    </ul>
+    <div class="banner">
 
-    <br>
+    </div>
+    <div id="grid">
+          <div class="main">
+            <ul id="list">
+                <li>2018년 2월: 융합인재학부 1학년 입학</li>
+              <hr>
+                <li>2018년 5월: 복수전공 '헬스케어진단전공'선택</li>
+              <hr>
+                <li>2019년 1월: 학부 내 전공 '<a href="주전공.html">의과학융합전공</a>'선택</li>
+              <hr>
+                <li>2020년 2월: 휴학</li>
+              <hr>
+                <li>2022년 2월: 복학</li>
+              <hr>
+                <li>2022년 5월: 복수전공 '<a href="복수전공.html">디지털인문예술전공</a>'으로 변경 예정</li>
+              <hr>
+            </ul>
 
-    <img src="college.jpg" width="100%" height="50%">
+            <br>
 
-    <p>
-      <div id="disqus_thread"></div>
-      <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://dah-web.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </p>
+            <img src="college.jpg" width="100%" height="50%">
+          </div>
+          <div class="greetings">
+            <h1>안녕하세요, 저희 페이지에 오신 것을 환영합니다😊</h1>
+            <br>이 페이지는 제 전공 선택 과정을 기록한 곳입니다.
+          </div>
+    </div>
 
-  </div>
+    <div>
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://dah-web.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     <p class="p2">
-      <audio src="Geek.mp3" controls autoplay loop>
-      </audio>
-      <br>
-      DAH <b> l </b> <small>Made by 20186521임재현</small>
+        <audio src="Geek.mp3" controls autoplay loop>
+        </audio>
+        <br>
+        DAH <b> l </b> <small>Made by 20186521임재현</small>
     </p>
   </body>
 </html>
